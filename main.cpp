@@ -69,7 +69,7 @@ int main() {
         // tokenization
         auto queryWords = TextParser::tokenize(line);
 
-        // search for all ords from the input
+        // search for all words from the input
         auto found = qe.searchAll(queryWords);
 
         // printing the results
